@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="backend" />
+        <module name="bundle" />
         <module name="frontend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="backend" target="1.8" />
+      <module name="bundle" target="1.5" />
       <module name="chattapp" target="1.5" />
       <module name="frontend" target="1.8" />
     </bytecodeTargetLevel>
