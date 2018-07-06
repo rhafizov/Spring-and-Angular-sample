@@ -1,4 +1,4 @@
 export class User {
-    id: number;
-    name: string;
+    id = 0;
+    name = '';
   }

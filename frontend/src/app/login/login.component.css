@@ -25,3 +25,17 @@
 .username-page-container .username-submit {
     margin-top: 10px;
 }
+
+.error {
+    color: red;
+  }
+.error-msg {
+    display: block;
+    position: absolute;
+    font-size: 75%;
+    bottom: -2em;
+  }
+
+.error input[type="email"] {
+    border-color: red;
+}

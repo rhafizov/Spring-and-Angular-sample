@@ -32,6 +32,15 @@
               <npmVersion>5.5.1</npmVersion>
             </configuration>
           </execution>
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
 
           <execution>
             <id>npm run build</id>
@@ -52,6 +61,7 @@
           <filesets>
             <fileset>cd ..
               <directory>dist</directory>
+              <directory>node_modules</directory>
               <includes>
                 <include>**/**</include>
 
